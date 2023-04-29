@@ -849,10 +849,10 @@ declare module "features" {
     export const CDT_LIST: "cdt-list";
     export const BLOB_BITS: "blob-bits";
 }
-declare module "commands/command" {
-    const _exports: Class;
-    export = _exports;
-}
+// declare module "commands/command" {
+//     const _exports: Class;
+//     export = _exports;
+// }
 declare module "record" {
     export = Record;
     class Record {
